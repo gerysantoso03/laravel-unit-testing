@@ -14,7 +14,7 @@ This is a Laravel project set up for practicing unit testing with Pest PHP. The 
 
 1. **Clone the repository**
 ```bash
-git clone git@github.com:gery-sqiva/laravel-unit-testing.git
+git clone git@github.com:gerysantoso03/laravel-unit-testing.git
 cd laravel-unit-testing
 ```
 
