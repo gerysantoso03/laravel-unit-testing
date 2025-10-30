@@ -4,7 +4,7 @@ This is a Laravel project set up for practicing unit testing with Pest PHP. The 
 
 ## Prerequisites
 
-- PHP >= 8.1
+- PHP >= 8.3
 - Composer
 - Node.js & NPM
 - MySQL/MariaDB
