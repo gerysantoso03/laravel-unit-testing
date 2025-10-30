@@ -22,11 +22,3 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
-
-# Exclude test files
-/tests/Feature/Auth/*Test.php
-/tests/Feature/*Test.php
-/tests/Unit/Helpers/*Test.php
-/tests/Unit/*Test.php
-/tests/Browser/
-/tests/Pest.php
