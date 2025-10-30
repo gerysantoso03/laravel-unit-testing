@@ -63,12 +63,18 @@ The application will be available at `http://localhost:8000`
 
 Pest PHP is already included in the project's dependencies. However, if you need to set it up in a fresh installation:
 
-1. **Initialize Pest**
+1 **Remove PHP unit and install PEST**
+```bash
+composer remove phpunit/phpunit
+composer require pestphp/pest --dev --with-all-dependencies
+```
+
+2. **Initialize Pest**
 ```bash
 ./vendor/bin/pest --init
 ```
 
-2. **Create test files**
+3. **Create test files**
 ```bash
 # Create a feature test
 php artisan make:test ProductTest
