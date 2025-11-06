@@ -23,8 +23,6 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 
-# Ignore test folders
-/tests/Browser/
-/tests/Feature/
-/tests/Unit/
-/tests/Pest.php
+# Exclude all test files except TestCase.php
+/tests/*
+!/tests/TestCase.php
