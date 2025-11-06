@@ -24,5 +24,9 @@ Homestead.yaml
 Thumbs.db
 
 # Exclude all test files except TestCase.php
-/tests/*
-!/tests/TestCase.php
+/tests/Feature/Auth/*Test.php
+/tests/Feature/*Test.php
+/tests/Unit/Helpers/*Test.php
+/tests/Unit/*Test.php
+/tests/Browser/
+/tests/Pest.php
